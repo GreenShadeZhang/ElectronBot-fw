@@ -186,7 +186,7 @@ __ALIGN_BEGIN uint8_t USBD_HS_DeviceDesc[USB_LEN_DEV_DESC] __ALIGN_END =
   0x00,                       /*bcdUSB */
 #endif /* (USBD_LPM_ENABLED == 1) */
 
-  0x00,                       /*bDeviceClass*/
+  0x02,
   0x00,                       /*bDeviceSubClass*/
   0x00,                       /*bDeviceSubClass*/
   0x00,                       /*bDeviceProtocol*/
